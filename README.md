@@ -3,7 +3,7 @@
 ## Setup
 
 - **ADF instance:** `sagie-repro-app10891` (project `653296462edd6d1437510dba`)
-- **ADF config:** https://gist.github.com/n0nick/a82392a0739de44ffab54bf3a728d5e0
+- **ADF config:** [`adf-config.json`](adf-config.json)
 - **Azure container:** `sagie-test-app10891` (storage account `sttabulardatadev1`, eastus)
 
 ## Data files

@@ -1,0 +1,28 @@
+{
+  "databases": [
+    {
+      "collections": [
+        {
+          "name": "readings",
+          "dataSources": [
+            {
+              "path": "/f87b919c-63b2-4d32-b676-0b55393938d7/{locationId string}/{robotId string}/{partId string}/{componentType string}/{componentName string}/{methodName string}/{captureDay isodate('2006-01-02')}/*",
+              "storeName": "azure-store"
+            }
+          ]
+        }
+      ],
+      "name": "sensorData",
+      "views": []
+    }
+  ],
+  "stores": [
+    {
+      "containerName": "sagie-test-app10891",
+      "name": "azure-store",
+      "provider": "azure",
+      "region": "eastus",
+      "serviceURL": "https://sttabulardatadev1.blob.core.windows.net"
+    }
+  ]
+}
